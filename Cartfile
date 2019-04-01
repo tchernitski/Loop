@@ -1,9 +1,9 @@
 
-github "LoopKit/LoopKit" ~> 2.2
-github "LoopKit/CGMBLEKit" == 3.0
-github "ps2/SwiftCharts" "hotfix-xcode10.2"
-github "LoopKit/dexcom-share-client-swift" == 1.0
-github "LoopKit/G4ShareSpy" == 1.0
-github "ps2/rileylink_ios" ~> 2.1
+github "tchernitski/LoopKit" "anna"
+github "tchernitski/CGMBLEKit" "master"
+github "i-schuetz/SwiftCharts" == 0.6.5
+github "tchernitski/dexcom-share-client-swift" "master"
+github "tchernitski/G4ShareSpy" "master"
+github "tchernitski/rileylink_ios" "anna"
 github "LoopKit/Amplitude-iOS" "decreepify"
-github "tchernitski/spike-client-swift-1" "master"
+github "tchernitski/spike-client-swift" "master"

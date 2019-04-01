@@ -11,6 +11,7 @@ import G4ShareSpy
 import ShareClient
 import SpikeClient
 
+
 let allCGMManagers: [CGMManager.Type] = [
     G6CGMManager.self,
     G5CGMManager.self,
