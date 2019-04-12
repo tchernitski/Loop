@@ -291,8 +291,6 @@
 		7D7076681FE0702F004AC8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D70766A1FE0702F004AC8EA /* InfoPlist.strings */; };
 		7D71F59A21FD3E5F0052B7A5 /* NightscoutUploader+Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71F59821FD3E5E0052B7A5 /* NightscoutUploader+Profile.swift */; };
 		7D71F59B21FD3E5F0052B7A5 /* UserDefaults+katie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71F59921FD3E5F0052B7A5 /* UserDefaults+katie.swift */; };
-		85DCC938225161F600D14634 /* SpikeClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DCC936225161F600D14634 /* SpikeClient.framework */; };
-		85DCC939225161F600D14634 /* SpikeClientUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DCC937225161F600D14634 /* SpikeClientUI.framework */; };
 		894F71E21FFEC4D8007D365C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894F71E11FFEC4D8007D365C /* Assets.xcassets */; };
 		898ECA60218ABD17001E9D35 /* GlucoseChartScaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898ECA5E218ABD17001E9D35 /* GlucoseChartScaler.swift */; };
 		898ECA61218ABD17001E9D35 /* GlucoseChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898ECA5F218ABD17001E9D35 /* GlucoseChartData.swift */; };
@@ -839,6 +837,8 @@
 		7DD382771F8DBFC60071272B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		7DD382781F8DBFC60071272B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		7DD382791F8DBFC60071272B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Interface.strings; sourceTree = "<group>"; };
+		85855BF6225B9E7400095E9B /* MiaomiaoClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MiaomiaoClient.framework; path = Carthage/Build/iOS/MiaomiaoClient.framework; sourceTree = "<group>"; };
+		85855BF7225B9E7400095E9B /* MiaomiaoClientUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MiaomiaoClientUI.framework; path = Carthage/Build/iOS/MiaomiaoClientUI.framework; sourceTree = "<group>"; };
 		85DCC936225161F600D14634 /* SpikeClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpikeClient.framework; path = Carthage/Build/iOS/SpikeClient.framework; sourceTree = "<group>"; };
 		85DCC937225161F600D14634 /* SpikeClientUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpikeClientUI.framework; path = Carthage/Build/iOS/SpikeClientUI.framework; sourceTree = "<group>"; };
 		894F71E11FFEC4D8007D365C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -880,8 +880,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DCC938225161F600D14634 /* SpikeClient.framework in Frameworks */,
-				85DCC939225161F600D14634 /* SpikeClientUI.framework in Frameworks */,
 				4F7528941DFE1E9500C322D6 /* LoopUI.framework in Frameworks */,
 				434FB6461D68F1CD007B9C70 /* Amplitude.framework in Frameworks */,
 				43A8EC6F210E622700A81379 /* CGMBLEKitUI.framework in Frameworks */,
@@ -1428,6 +1426,8 @@
 		968DCD53F724DE56FFE51920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85855BF6225B9E7400095E9B /* MiaomiaoClient.framework */,
+				85855BF7225B9E7400095E9B /* MiaomiaoClientUI.framework */,
 				85DCC936225161F600D14634 /* SpikeClient.framework */,
 				85DCC937225161F600D14634 /* SpikeClientUI.framework */,
 				434FB6451D68F1CD007B9C70 /* Amplitude.framework */,
@@ -1887,8 +1887,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/MinimedKitUI.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CGMBLEKitUI.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ShareClientUI.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SpikeClientUI.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SpikeClient.framework",
 			);
 			name = "Copy Frameworks with Carthage";
 			outputPaths = (

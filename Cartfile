@@ -1,9 +1,14 @@
+#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Fabric.json"
+#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Crashlytics.json"
+#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Answers.json"
 
 github "tchernitski/LoopKit" "anna"
-github "tchernitski/CGMBLEKit" "master"
+github "tchernitski/CGMBLEKit" "custom_server"
 github "i-schuetz/SwiftCharts" == 0.6.5
-github "tchernitski/dexcom-share-client-swift" "master"
-github "tchernitski/G4ShareSpy" "master"
+github "tchernitski/dexcom-share-client-swift" "custom_server"
+github "tchernitski/G4ShareSpy" "custom_server"
 github "tchernitski/rileylink_ios" "anna"
 github "LoopKit/Amplitude-iOS" "decreepify"
-github "tchernitski/spike-client-swift" "master"
+#github "tchernitski/spike-client-swift" "master"
+#github "tchernitski/miaomiao-client-swift" "master"
+
