@@ -1,3 +1,5 @@
+binary "https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json" "3.12.0"
+binary "https://building42.github.io/Specs/Carthage/iOS/Fabric.json" "1.9.0"
 github "LoopKit/Amplitude-iOS" "2137d5fd44bf630ed33e1e72d7af6d8f8612f270"
 github "i-schuetz/SwiftCharts" "0.6.5"
 github "tchernitski/CGMBLEKit" "d7e771f579a4a18df9c4148c4ba957cc1ae5d42c"

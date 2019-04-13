@@ -1,6 +1,5 @@
-#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Fabric.json"
-#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Crashlytics.json"
-#binary "https://raw.githubusercontent.com/Building42/Specs/master/Carthage/Answers.json"
+binary "https://building42.github.io/Specs/Carthage/iOS/Crashlytics.json"
+binary "https://building42.github.io/Specs/Carthage/iOS/Fabric.json"
 
 github "tchernitski/LoopKit" "anna"
 github "tchernitski/CGMBLEKit" "custom_server"
